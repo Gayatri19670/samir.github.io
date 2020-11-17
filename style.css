@@ -810,14 +810,14 @@ section .title::after {
 /* footer section styling */
 
 footer {
-    background: #111;
+    background: linear-gradient(to top, #f857a6, black);
     padding: 15px 23px;
     color: #fff;
     text-align: center;
 }
 
 footer span a {
-    color: crimson;
+    color: black;
     text-decoration: none;
 }
 
