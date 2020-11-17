@@ -964,13 +964,13 @@ footer span a:hover {
     }
     .follow {
         margin-top: 10%;
-        font-size: 15px;
+        font-size: 10px;
         display: inline-flex;
     }
     .followMe a {
         width: 40px;
         height: 40px;
-        font-size: 20px;
+        font-size: 15px;
     }
     .followMe a:hover {
         background: crimson;
