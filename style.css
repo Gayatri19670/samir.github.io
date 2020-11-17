@@ -231,7 +231,7 @@ section .title::after {
     font-size: 75px;
     font-weight: 600;
     margin-left: -3px;
-    background: -webkit-linear-gradient(rgb(219, 10, 10), rgb(5, 5, 5));
+    background: -webkit-linear-gradient(#f857a6, rgb(5, 5, 5));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
