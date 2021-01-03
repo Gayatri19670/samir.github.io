@@ -109,7 +109,9 @@ section .title::after {
 
 .navbar.sticky {
     padding: 10px 0;
-    background: linear-gradient(to top, black, #f857a6);
+    background: rgba(0, 0, 0, 0.658);
+    /* background: linear-gradient(to top, black, #f857a6); */
+    box-shadow: 4px 0px 12px rgba(211, 196, 196, 0.89) inset;
 }
 
 .navbar .max-width {
@@ -209,7 +211,7 @@ section .title::after {
     font-family: 'Ubuntu', sans-serif; */
     display: flex;
     background: url(/a1.jpg) no-repeat center;
-    /* background-size: 1300px 700px; */
+    background-size: 1300px 950px;
     height: 100hv;
     color: #fff;
     min-height: 700px;
@@ -261,8 +263,9 @@ section .title::after {
     margin-top: 20px;
     font-weight: 400;
     border-radius: 6px;
-    border: 2px solid crimson;
+    /* border: 2px solid crimson; */
     transition: all 0.3s ease;
+    box-shadow: 4px 0px 12px rgb(10, 0, 0) inset;
 }
 
 .home .home-content a:hover {
@@ -284,6 +287,7 @@ section .title::after {
     transition: 0.4s;
     border-radius: 50%;
     color: crimson;
+    box-shadow: 4px 0px 12px rgb(10, 0, 0) inset;
     /* margin-top: 40%; */
 }
 
@@ -298,7 +302,9 @@ section .title::after {
     margin-left: 200px;
     width: 350px;
     height: 500px;
-    box-shadow: 4px 0px 12px rgb(10, 0, 0) inset;
+    /* box-shadow: 4px 0px 12px rgb(10, 0, 0); */
+    /* box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12); */
+    box-shadow: rgb(15, 15, 15) 0px 50px 100px -20px, rgb(19, 19, 18) 0px 30px 60px -30px, rgba(10, 37, 64, 0.925) 0px -2px 6px 0px inset;
     border-radius: 10px;
 }
 
@@ -323,7 +329,8 @@ section .title::after {
     background: url(about.jpg) no-repeat center;
     background-size: 400px 500px;
     object-fit: cover;
-    box-shadow: 4px 0px 12px rgb(10, 0, 0) inset;
+    /* box-shadow: 4px 0px 12px rgb(10, 0, 0) inset; */
+    box-shadow: rgba(50, 50, 93, 0.884) 0px 50px 100px -20px, rgba(0, 0, 0, 0.904) 0px 30px 60px -30px, rgba(10, 37, 64, 0.925) 0px -2px 6px 0px inset;
     border-radius: 15px;
 }
 
@@ -400,14 +407,35 @@ section .title::after {
     background: #fff;
 }
 
+.serv-1 {
+    background: url("/Img/p2.jpg");
+    background-size: 355px 240px;
+    color: rgb(247, 7, 19);
+    font-weight: bold;
+}
+
+.serv-2 {
+    background: url("/Img/p3.jpg");
+    background-size: 355px 240px;
+    color: rgb(247, 7, 19);
+    font-weight: bold;
+}
+
+.serv-3 {
+    background: url("/Img/p1.jpg");
+    background-size: 355px 240px;
+    color: rgb(247, 7, 19);
+    font-weight: bold;
+}
+
 .services .serv-content .card {
     width: calc(33% - 20px);
     /* background: #222; */
-    background: #ff0084;
+    /* background: #ff0084; */
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #33001b, #ff0084);
+    /* background: -webkit-linear-gradient(to right, #33001b, #ff0084); */
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #33001b, #ff0084);
+    /* background: linear-gradient(to right, #33001b, #ff0084); */
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     box-shadow: 4px 0px 12px rgb(10, 0, 0) inset;
     text-align: center;
@@ -624,9 +652,9 @@ section .title::after {
     width: 150px;
     object-fit: cover;
     border-radius: 50%;
-    border: 5px solid crimson;
+    /* border: 2px solid white; */
     transition: all 0.3s ease;
-    /* box-shadow: 4px 0px 12px rgb(10, 0, 0) inset; */
+    box-shadow: 4px 0px 12px rgb(10, 0, 0);
 }
 
 .teams .carousel .card:hover img {
@@ -668,6 +696,7 @@ section .title::after {
     transition: 0.4s;
     border-radius: 50%;
     color: white;
+    box-shadow: 4px 0px 12px rgb(10, 0, 0);
 }
 
 .profileLinks a:hover {
@@ -803,17 +832,19 @@ section .title::after {
 
 footer {
     height: 200px;
-    background: linear-gradient(to top, #f857a6, black);
+    background: url("/footer.jpg");
+    background-size: 1300px 500px;
     padding: 15px 23px;
     color: #fff;
     text-align: center;
+    box-shadow: 4px 0px 12px rgb(10, 0, 0) inset;
 }
 
 footer p {
     margin-top: 20px;
-    font-size: 30px;
-    font-weight: 500;
-    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(26, 23, 23);
 }
 
 .follow {
@@ -834,9 +865,12 @@ footer p {
     justify-content: center;
     align-items: center;
     font-size: 30px;
+    background: white;
     transition: 0.4s;
     border-radius: 50%;
-    color: crimson;
+    color: rgb(14, 1, 4);
+    /* box-shadow: 4px 0px 12px rgb(10, 0, 0) inset; */
+    box-shadow: rgba(50, 50, 93, 0.884) 0px 50px 100px -20px, rgba(0, 0, 0, 0.904) 0px 30px 60px -30px, rgba(10, 37, 64, 0.925) 0px -2px 6px 0px inset;
 }
 
 .followMe a:hover {
