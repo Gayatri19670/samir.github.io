@@ -832,7 +832,7 @@ section .title::after {
 
 footer {
     height: 200px;
-    background: url("/https://github.com/Gayatri19670/samir.github.io/blob/main/footer.jpg?raw=true");
+    background: url("https://github.com/Gayatri19670/samir.github.io/blob/main/footer.jpg");
     background-size: 1300px 500px;
     padding: 15px 23px;
     color: #fff;
