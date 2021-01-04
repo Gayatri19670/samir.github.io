@@ -378,7 +378,7 @@ section .title::after {
 .services {
     color: #fff;
     box-shadow: 4px 0px 12px rgb(10, 0, 0) inset;
-    background: #fc00ff;
+    background: #pxfc00ff;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);
     /* Chrome 10-25, Safari 5.1-6 */
@@ -410,21 +410,21 @@ section .title::after {
 }
 
 .serv-1 {
-    background: url("/Img/p2.jpg");
+    background: url(Img/p2.jpg) no-repeat;
     background-size: 355px 240px;
     color: rgb(247, 7, 19);
     font-weight: bold;
 }
 
 .serv-2 {
-    background: url("/Img/p3.jpg");
+    background: url(Img/p3.jpg) no-repeat;
     background-size: 355px 240px;
     color: rgb(247, 7, 19);
     font-weight: bold;
 }
 
 .serv-3 {
-    background: url("/Img/p1.jpg");
+      background: url(Img/p2.jpg) no-repeat;
     background-size: 355px 240px;
     color: rgb(247, 7, 19);
     font-weight: bold;
@@ -834,7 +834,7 @@ section .title::after {
 
 footer {
     height: 200px;
-    background: url(footer.jpg) no-repeat center;
+    background: url(footer.jpg) no-repeat;
     background-size: 1300px 500px;
     padding: 15px 23px;
     color: #fff;
