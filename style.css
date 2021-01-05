@@ -907,6 +907,9 @@ footer span a:hover {
         height: 450px;
         width: 350px;
     }
+    .by{
+      margin-top: 30px;
+    }
 }
 
 @media (max-width: 991px) {
@@ -978,6 +981,7 @@ footer span a:hover {
         width: 100%;
         margin-bottom: 35px;
     }
+    
 }
 
 @media (max-width: 690px) {
@@ -996,11 +1000,13 @@ footer span a:hover {
     .services .serv-content .card {
         width: 100%;
     }
+    
 }
 
 @media (max-width: 500px) {
     .home {
-        background-image: linear-gradient( 135.9deg, rgba(109, 25, 252, 1) 16.4%, rgba(125, 31, 165, 1) 56.1%);
+      /**  background-image: linear-gradient( 135.9deg, rgba(109, 25, 252, 1) 16.4%, rgba(125, 31, 165, 1) 56.1%); ******/
+      
     }
     .navbar .menu li a:hover {
         color: rgb(3, 3, 3);
@@ -1031,17 +1037,38 @@ footer span a:hover {
         line-height: 38px;
     }
     .follow {
-        margin-top: 10%;
+        
         font-size: 10px;
         display: inline-flex;
     }
     .followMe a {
+      margin-top: 8%;
         width: 40px;
         height: 40px;
         font-size: 15px;
     }
+    .by{
+      margin-top: 40px;
+      font-size: 14px;
+      font-weight: 500;
+    }
     .followMe a:hover {
         background: crimson;
         color: white;
+    }
+    .myImg{
+      margin: 10px;
+      width: 340px;
+      height: 450px;
+    }
+    .myProfile{
+      margin-left: 12px;
+      margin-top: 5px;
+      
+    }
+   
+.home .max-width {
+      display:flex ;
+      flex-direction:column;
     }
 }
