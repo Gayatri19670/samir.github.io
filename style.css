@@ -438,7 +438,7 @@ section .title::after {
     /* background: -webkit-linear-gradient(to right, #33001b, #ff0084); */
     /* Chrome 10-25, Safari 5.1-6 */
     /* background: linear-gradient(to right, #33001b, #ff0084); */
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     
     box-shadow: 4px 0px 12px rgb(10, 0, 0) inset;
     text-align: center;
     border-radius: 6px;
