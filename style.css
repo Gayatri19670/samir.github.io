@@ -298,9 +298,9 @@ section .title::after {
 }
 
 .myImg {
-     background: url(sam2.jpg) no-repeat center;
+     background: url(Sm.jpg) no-repeat center;
    
-    background-size: 350px 560px;
+    background-size: 350px 750px;
     margin-left: 200px;
     width: 350px;
     height: 500px;
