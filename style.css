@@ -398,7 +398,6 @@ section .title::after {
 .teams .title::before {
     background: black;
 }
-
 .services .title::after {
     background: white;
     border-radius: 10px;
